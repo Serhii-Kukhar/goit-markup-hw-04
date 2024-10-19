@@ -452,7 +452,14 @@ img {
     background: #2e2f42;
     
 }
-
+.container-footer {
+    display: flex;
+    align-items: baseline;
+    
+}
+.footer-logo-container {
+    margin-right: 120px;
+}
 
 .footer-logo-link {
     display: inline-block;
@@ -478,6 +485,9 @@ img {
     color: #f4f4fd;
 }
 
+.footer-social-container {
+
+}
 
 .footer-social-title {
     font-weight: 500;
@@ -485,8 +495,12 @@ img {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #fff;
+        margin-bottom: 16px;
 }
-.soc-list-footer {}
+.soc-list-footer {
+    display: flex;
+    gap: 16px;
+}
 
 .soc-item-footer {
     width: 40px;
